@@ -98,7 +98,9 @@ end
 all_supplies_in_holidays(holiday_hash)
 def all_holidays_with_bbq(holiday_hash)
   array = []
+  unused = []
   holiday_hash.each do |k, v|
+    unused << k
     v.each do |items|
       if items == "BBQ"
         array << items
