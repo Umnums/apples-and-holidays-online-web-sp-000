@@ -100,12 +100,9 @@ def all_holidays_with_bbq(holiday_hash)
   array = []
   unused = []
   holiday_hash.each do |k, v|
-    unused << k
-    v.each do |items|
-      if items == "BBQ"
-        array << v
-      end
-
+    if v.values.include?("BBQ")
+      array << v
+    
     end
   end
   array
