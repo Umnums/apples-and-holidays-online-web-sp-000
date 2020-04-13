@@ -103,7 +103,7 @@ def all_holidays_with_bbq(holiday_hash)
     unused << k
     v.each do |items|
       if items == "BBQ"
-        array << items
+        array << v
       end
 
     end
