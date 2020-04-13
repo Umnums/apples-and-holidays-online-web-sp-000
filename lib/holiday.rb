@@ -105,7 +105,7 @@ def all_holidays_with_bbq(holiday_hash)
       end
     end
     end
-    print array
+  array
   end
 all_holidays_with_bbq(holiday_hash)
 
