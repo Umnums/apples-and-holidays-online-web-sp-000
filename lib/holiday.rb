@@ -100,7 +100,7 @@ def all_holidays_with_bbq(holiday_hash)
   unused = []
   holiday_hash.each do |season, holiday|
     unused << season
-    prints holiday.values.include?("BBQ")
+    print holiday.values.include?("BBQ")
 
 
     end
